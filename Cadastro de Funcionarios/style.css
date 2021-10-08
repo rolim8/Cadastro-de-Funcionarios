@@ -1,0 +1,45 @@
+body {
+font: 1em Times New Roman, Gill Sans MT, sans-serif;
+background-color: #D5D8DC;
+}
+
+.title{
+  font-size:40px;
+  text-align: center;
+  height: 80px;
+  padding-top: 30;
+  background-color: #A569BD;
+}
+
+.line{
+  color: #A569BD;
+  border: 2px solid;
+}
+
+fieldset{
+  background-color:#D5D8DC;
+  border-color: #A569BD
+}
+
+.cpf{
+  margin-left: 14px;
+}
+
+.rua{
+  margin-left: 28px;
+}
+.bairro{
+  margin-left: 12px;
+}
+.cidade{
+  margin-left:9px;
+}
+.email{
+  margin-left: 17px;
+}
+
+#legend {
+font-size: 1.4em;
+text-transform: uppercase;
+color: #000;
+}
