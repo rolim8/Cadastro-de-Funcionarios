@@ -1,0 +1,75 @@
+body {
+  font: 1em Gill Sans MT;
+  background-color: #D5D8DC;
+}
+
+.title{
+  font-size:40px;
+  font-weight: bold;
+  height: 75px;
+  padding-top: 20;
+  background-color: #A569BD;
+  text-align: center;
+}
+
+.title .ttxt{
+  margin-left: 15px;
+}
+
+.side{
+  width: 50%;
+  height: 100px;
+  float: left;
+}
+
+.image{
+  border-radius: 8px;
+  display: block;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: auto;
+  width: 75%;
+}
+
+.legend{
+  margin-left: 120px;
+  font-size: 1.6em;
+  color: #000;
+  text-align:left;
+  color:gray;
+}
+
+fieldset{
+  text-align:left;
+  background-color:transparent;
+  border-color: transparent;
+}
+
+input[type=text], input[type=password] {
+  width: 50%;
+  margin: 6px 0;
+  padding: 12px 18px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.login{
+  margin-left: center;
+  width: 50%;
+  background-color: #A569BD;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  margin: 10px 0px;
+  border: none;
+  cursor: pointer;
+}
+.login:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  opacity: 0.7;
+}
+
+.forgot{
+  color: gray;
+  margin-left: 13%;
+}
